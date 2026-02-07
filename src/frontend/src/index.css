@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --radius: 0.625rem;
+        /* Ivory/Cream background with warm undertones */
+        --background: 0.98 0.01 60;
+        --foreground: 0.25 0.02 30;
+        /* Soft ivory card */
+        --card: 0.99 0.005 60;
+        --card-foreground: 0.25 0.02 30;
+        --popover: 0.99 0.005 60;
+        --popover-foreground: 0.25 0.02 30;
+        /* Rich gold primary */
+        --primary: 0.65 0.15 75;
+        --primary-foreground: 0.99 0.005 60;
+        /* Soft pastel secondary */
+        --secondary: 0.95 0.02 85;
+        --secondary-foreground: 0.35 0.02 30;
+        /* Muted pastel tones */
+        --muted: 0.93 0.015 70;
+        --muted-foreground: 0.55 0.02 40;
+        /* Soft accent */
+        --accent: 0.92 0.03 80;
+        --accent-foreground: 0.35 0.02 30;
+        /* Destructive with warmth */
+        --destructive: 0.55 0.22 25;
+        --destructive-foreground: 0.99 0.005 60;
+        /* Subtle borders */
+        --border: 0.90 0.01 65;
+        --input: 0.90 0.01 65;
+        --ring: 0.65 0.15 75;
+        /* Chart colors - pastels */
+        --chart-1: 0.75 0.12 340;
+        --chart-2: 0.70 0.10 200;
+        --chart-3: 0.72 0.08 150;
+        --chart-4: 0.68 0.11 280;
+        --chart-5: 0.76 0.13 50;
+    }
+
+    .dark {
+        /* Deep charcoal with warm undertones */
+        --background: 0.20 0.015 30;
+        --foreground: 0.95 0.01 60;
+        /* Slightly lighter card */
+        --card: 0.25 0.02 35;
+        --card-foreground: 0.95 0.01 60;
+        --popover: 0.23 0.02 32;
+        --popover-foreground: 0.95 0.01 60;
+        /* Bright gold for dark mode */
+        --primary: 0.75 0.18 70;
+        --primary-foreground: 0.20 0.015 30;
+        /* Muted secondary */
+        --secondary: 0.30 0.02 40;
+        --secondary-foreground: 0.95 0.01 60;
+        /* Dark muted */
+        --muted: 0.28 0.02 38;
+        --muted-foreground: 0.70 0.015 55;
+        /* Dark accent */
+        --accent: 0.35 0.03 45;
+        --accent-foreground: 0.95 0.01 60;
+        /* Destructive */
+        --destructive: 0.60 0.25 25;
+        --destructive-foreground: 0.95 0.01 60;
+        /* Subtle borders for dark */
+        --border: 0.32 0.02 40;
+        --input: 0.32 0.02 40;
+        --ring: 0.75 0.18 70;
+        /* Chart colors for dark mode */
+        --chart-1: 0.65 0.15 340;
+        --chart-2: 0.60 0.12 200;
+        --chart-3: 0.62 0.10 150;
+        --chart-4: 0.58 0.13 280;
+        --chart-5: 0.66 0.16 50;
+    }
+
+    * {
+        @apply border-border;
+    }
+    body {
+        @apply bg-background text-foreground;
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+            'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    }
+}
+
+@layer utilities {
+    .animate-fade-in {
+        animation: fadeIn 1s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+}

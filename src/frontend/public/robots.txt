@@ -1,0 +1,48 @@
+# Robots.txt for Kaptan Celebrations (Kaptan Groceries)
+# Birthday Cakes, Party Planners, Anniversary Decoration Services
+# https://kaptancelebrations.ic0.app/
+
+# Allow all search engines to crawl the entire site
+User-agent: *
+Allow: /
+Crawl-delay: 1
+
+# Specific rules for major search engines
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Googlebot-Video
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 1
+
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 1
+
+User-agent: YandexBot
+Allow: /
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://kaptancelebrations.ic0.app/sitemap.xml
+
+# Allow indexing of all assets
+Allow: /assets/
+Allow: /assets/generated/
+
+# Keywords: birthday cake, party planners, anniversary decoration, celebration services

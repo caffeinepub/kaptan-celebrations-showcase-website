@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  
+  <!-- Home Page - Birthday Cakes, Party Planners, Anniversary Decoration -->
+  <url>
+    <loc>https://kaptancelebrations.ic0.app/</loc>
+    <lastmod>2026-01-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <!-- About Section - Kaptan Celebrations & Kaptan Groceries -->
+  <url>
+    <loc>https://kaptancelebrations.ic0.app/#about</loc>
+    <lastmod>2026-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Services - Birthday Cakes, Party Planning, Anniversary Decoration -->
+  <url>
+    <loc>https://kaptancelebrations.ic0.app/#services</loc>
+    <lastmod>2026-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- Portfolio - Birthday Cakes, Party Decoration Gallery -->
+  <url>
+    <loc>https://kaptancelebrations.ic0.app/#portfolio</loc>
+    <lastmod>2026-01-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- Testimonials - Customer Reviews -->
+  <url>
+    <loc>https://kaptancelebrations.ic0.app/#testimonials</loc>
+    <lastmod>2026-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- Booking Form - Request Quote for Birthday Cakes & Party Planning -->
+  <url>
+    <loc>https://kaptancelebrations.ic0.app/#booking</loc>
+    <lastmod>2026-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  
+  <!-- Contact - Party Planners Contact Information -->
+  <url>
+    <loc>https://kaptancelebrations.ic0.app/#contact</loc>
+    <lastmod>2026-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+</urlset>
